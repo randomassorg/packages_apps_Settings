@@ -410,4 +410,8 @@
     <!-- IME Space -->
     <string name="navigation_bar_ime_space_title">IME space</string>
     <string name="navigation_bar_ime_space_summary">Add space below keyboard when navigation hint is disabled</string>     
+
+    <!-- Back gesture animation -->
+    <string name="back_gesture_arrow_title">Back gesture animation</string>
+    <string name="back_gesture_arrow_summary">Show an animated arrow for back gesture</string>
 </resources>
