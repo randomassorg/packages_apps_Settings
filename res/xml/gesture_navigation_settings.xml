@@ -57,6 +57,14 @@
             settings:textEnd="@string/high_label"/>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/navbar_category">
+
+       <com.android.settings.custom.preference.SystemSettingSwitchPreference
+            android:key="navigation_bar_ime_space"
+            android:title="@string/navigation_bar_ime_space_title"
+            android:summary="@string/navigation_bar_ime_space_summary" />
+
     <com.android.settingslib.widget.FooterPreference
         android:key="gesture_navigation_settings_footer"
         android:title="@string/back_sensitivity_dialog_message"
